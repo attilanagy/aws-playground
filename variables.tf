@@ -17,7 +17,7 @@ variable "db_user" {
 }
 
 variable "db_storage" {
-  type        = string
+  type        = number
   default     = 10
   description = "The storage allocated to the MySQL database"
 }

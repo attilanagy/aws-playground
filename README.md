@@ -82,7 +82,7 @@ DMZ and Worker networks are distributed across all the availability zones  in th
 | db_instance_size | string | t2.micro | DB instance class |
 | db_password | string | password | The password for the MySQL database |
 | db_user | string | user | The user for MySQL database |
-| db_storage | string | 10 | The storage allocated to the MySQL database |
+| db_storage | number | 10 | The storage allocated to the MySQL database |
 | environment | string |  | The name of the enironment |
 | ec2_keypair_name | string | processor | The EC2 SSH keypair name |
 | region | string | eu-central-1 | The AWS region where the VPC is located at |
