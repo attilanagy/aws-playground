@@ -111,6 +111,8 @@ DMZ and Worker networks are distributed across all the availability zones  in th
 
 * As this is a PoC SSL listener and the corresponding certificate configuration in Web application load-balancer havn't been implemented yet.
 * On SFTP nodes the NFS mount command is provided via EC2 instance user-data however the it doesn't seem to be working. It's a provisioning issue.
+* Currently DB password is stored in var files unencrypted
+* State backend should be changed to a remote one
 
 
 [aws]:              https://aws.amazon.com/
