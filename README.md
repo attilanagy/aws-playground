@@ -7,7 +7,7 @@ This repository contains a simple [AWS][aws] environment built with [Terraform][
 * Terraform => 0.12
 * Amazon account
 
-## TL:DR
+## TL;DR
 
 Environments are separated on VPC level. Variables are stored in var files and default values are supporting local development. This is a PoC so only the *dev* environment has been created so far.
 
@@ -107,7 +107,7 @@ DMZ and Worker networks are distributed across all the availability zones  in th
 | queue_url | The URL of the worker SQS queue |
 | web_lb_dns_name | The FQDN of the Load Balancer |
 
-## ToDO
+## TODO
 
 * As this is a PoC SSL listener and the corresponding certificate configuration in Web application load-balancer havn't been implemented yet.
 * On SFTP nodes the NFS mount command is provided via EC2 instance user-data however the it doesn't seem to be working. It's a provisioning issue.
